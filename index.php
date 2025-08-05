@@ -11,6 +11,7 @@ session_start();
     <script src="https://kit.fontawesome.com/aeedad00de.js" crossorigin="anonymous"></script>
     <title>Portafolio | José Caraballo</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_media_queries.css">
 </head>
 <body>
     
@@ -192,4 +193,5 @@ session_start();
 
 
 </body>
+
 </html>
