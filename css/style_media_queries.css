@@ -1,0 +1,81 @@
+@media (max-width: 1200px) { /* Laptops grandes */ }
+@media (max-width: 992px)  { /* Tablets y laptops medianas */ }
+@media (max-width: 768px)  { /* Tablets */ }
+@media (max-width: 576px)  { /* Teléfonos */ }
+
+
+/* --------------------------------------------------------------- */ 
+
+
+@media (max-width: 768px)  {
+
+    .cursor{
+
+        display: none;
+
+}
+
+.iconos_code{
+
+    padding: 6px;
+}
+
+.About_general_descripcion_cuadro_1{
+
+    width: 100%;
+
+}
+
+.About_general_descripcion_cuadro_2{
+
+    width: 100%;
+
+}
+
+.About_general_descripcion{
+    width: 100%;
+
+}
+
+}
+
+
+/* --------------------------------------------------------------- */ 
+
+
+@media (max-width: 1200px) {
+  .descripcion_cuadro {
+   
+    gap: 20px;
+
+}
+
+  .descripcion_cuadro:hover{
+
+   transform: scale(1.0); /* Aumenta el tamaño al pasar el mouse */
+
+}
+
+  .Portfolio_linea{
+
+    padding: 10px 10px;
+
+}
+
+.Contact_general_descripcion{
+
+    width: 65%;
+
+}
+
+.heading{
+
+    font-size: 35px;
+
+
+}
+
+}
+
+
+/* --------------------------------------------------------------- */ 
