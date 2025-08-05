@@ -34,6 +34,7 @@ hr {
 }
 
 .cursor {
+    
     display: block;
     width: 30px;
     height: 30px;
@@ -343,6 +344,7 @@ background-color: #0d0f26;
 .About_general_descripcion{
 
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 
@@ -351,6 +353,7 @@ background-color: #0d0f26;
 .Services_general_descripcion{
 
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     gap: 20px;
@@ -360,6 +363,7 @@ background-color: #0d0f26;
 .Portfolio_general_descripcion{
 
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 
