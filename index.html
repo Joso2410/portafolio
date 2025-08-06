@@ -44,14 +44,6 @@ session_start();
 
     </div>
 
-    <?php if (isset($_SESSION['mensaje_exito'])): ?>
-        <div class="notificacion_contacto">
-            <?php 
-            echo $_SESSION['mensaje_exito'];
-            unset($_SESSION['mensaje_exito']); // Limpiar para que no se repita
-            ?>
-        </div>
-    <?php endif; ?>
 
 </div>
 
@@ -208,3 +200,4 @@ session_start();
 
 </body>
 </html>
+
