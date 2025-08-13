@@ -40,6 +40,7 @@
 
     </div>
 
+
 </div>
 
 
@@ -52,7 +53,7 @@
     <div class="home_redes">
         <a href="https://www.facebook.com/people/Jose-Caraballo/pfbid0MPogqPzkxiWb1bNEcEJT3uKrpJGq237r4QChQvkJmDzqdg8DTW2tBWNKjLzHejxdl/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://github.com/Joso2410" class="home_redes_ti" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.instagram.com/akeymibeats/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/josegrc24/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
 
 </div>
@@ -63,15 +64,15 @@
 
     <div class="About_general_descripcion">
         <div class="About_general_descripcion_cuadro_1">
-            <h3>Acerca de mí</h3>
+            <h3>Acerca de mí como</h3>
             <h2>Desarrollador, diseñador,<br>Soporte técnico.</h2>
-            <div class="boton_estilo_1">Curriculum <i class="fa-solid fa-cloud-arrow-down" style="margin-left:10px;"></i></div>
+            <a  href="./document/CV_Jose_Caraballo_ATS.docx" class="boton_estilo_1">Curriculum ATS<i class="fa-solid fa-cloud-arrow-down" style="margin-left:10px;"></i></a>
         </div>
 
         <div class="About_general_descripcion_cuadro_2">
 
             <p style="text-align: justify!important;">
-            Soy desarrollador web Full Stack con más de tres años de experiencia en el diseño y desarrollo de sistemas web personalizados. Me formé de manera autodidacta y he trabajado en proyectos clave dentro del área de telecomunicaciones, destacando en la creación de aplicaciones para gestión de inventario, control de activos, soporte de aplicaciones, ect.
+            Soy desarrollador web Full Stack con más de tres años de experiencia en el diseño y desarrollo de sistemas web personalizados. Me formé de manera autodidacta y he trabajado en proyectos clave dentro del área de soporte, destacando en la creación de aplicaciones para gestión de inventario, control de activos, soporte de aplicaciones, ect.
             <br> <br>
             Domino tecnologías como HTML, CSS, JavaScript, PHP, bootstrap, MySQL y PhpMyAdmin, y me especializo en construir soluciones funcionales, organizadas y orientadas a mejorar procesos internos. 
             </p>
@@ -128,12 +129,16 @@
 
      <div class="Portfolio_general_descripcion">
             <div class="Portfolio_linea">
-                <div id="abrirGaleria" class="Portfolio_cuadro" style="background-image: url('./Img/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
-                <div class="Portfolio_cuadro" style="background-image: url('./Img/4.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <div id="abrirGaleria" class="Portfolio_cuadro" style="background-image: url('./Img/Ordenes_de_salida/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo" style="margin-left:8px;"></i></div>
+                <a href="http://" class="ver_proyecto">Sistema de Ordenes de Salida<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
+                <div class="Portfolio_cuadro" style="background-image: url(''); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Ver mas detalles<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
             </div>
             <div class="Portfolio_linea">
-                <div class="Portfolio_cuadro" style="background-image: url('./Img/2.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <div id="abrirGaleria2" class="Portfolio_cuadro" style="background-image: url('./Img/Pagina_corporativa/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Web corporativa / Aplicaciones<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
                 <div class="Portfolio_cuadro"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Ver mas detalles<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
             </div>
      </div>
 
@@ -158,7 +163,7 @@
     <div class="home_redes">
         <a href="https://www.facebook.com/people/Jose-Caraballo/pfbid0MPogqPzkxiWb1bNEcEJT3uKrpJGq237r4QChQvkJmDzqdg8DTW2tBWNKjLzHejxdl/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://github.com/Joso2410" class="home_redes_ti" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.instagram.com/akeymibeats/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/josegrc24/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
 
     <p>Todos los Derechos Reservados / Desarrollado por José Caraballo  © 2026 / Políticas de Privacidad / Aviso Legal</p>
@@ -189,10 +194,190 @@
 
     <script src="./js/nav_hamburguesa.js"></script>
 
-    <?php include './php/galeria_portafolio.php';?>
+   
+
+    <!-- Contenedor de la galería (lightbox) -->
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content" id="galeriaContenido">
+    <button class="nav-btn prev" id="prevBtn">&#8592;</button>
+    <img id="imagenActual" src="" alt="Imagen">
+    <button class="nav-btn next" id="nextBtn">&#8594;</button>
+  </div>
+</div>
+
+<script>
+  // Array con las rutas de tus imágenes
+  const imagenes = [
+    './Img/Ordenes_de_salida/1.png',
+    './Img/Ordenes_de_salida/2.png',
+    './Img/Ordenes_de_salida/3.png',
+    './Img/Ordenes_de_salida/4.png',
+    './Img/Ordenes_de_salida/5.png',
+    './Img/Ordenes_de_salida/6.png',
+    './Img/Ordenes_de_salida/7.png',
+    './Img/Ordenes_de_salida/8.png',
+    './Img/Ordenes_de_salida/9.png',
+    './Img/Ordenes_de_salida/10.png',
+    './Img/Ordenes_de_salida/11.png',
+    './Img/Ordenes_de_salida/12.png'
+  ];
+
+  let indice = 0;
+
+  const lightbox = document.getElementById('lightbox');
+  const imagenActual = document.getElementById('imagenActual');
+  const abrirGaleria = document.getElementById('abrirGaleria'); // Asegúrate de tener este botón
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const galeriaContenido = document.getElementById('galeriaContenido');
+
+  // Mostrar imagen según el índice
+  function mostrarImagen(index) {
+    imagenActual.src = imagenes[index];
+  }
+
+  // Mostrar la galería
+  abrirGaleria.addEventListener('click', () => {
+    indice = 0;
+    mostrarImagen(indice);
+    lightbox.style.display = 'flex';
+  });
+
+  // Botones de navegación
+  nextBtn.addEventListener('click', () => {
+    indice = (indice + 1) % imagenes.length;
+    mostrarImagen(indice);
+  });
+
+  prevBtn.addEventListener('click', () => {
+    indice = (indice - 1 + imagenes.length) % imagenes.length;
+    mostrarImagen(indice);
+  });
+
+  // Cerrar galería al hacer clic fuera de la imagen
+  lightbox.addEventListener('click', (e) => {
+    if (!galeriaContenido.contains(e.target)) {
+      lightbox.style.display = 'none';
+    }
+  });
+
+  // ==== Swipe (deslizar con el dedo) ====
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  imagenActual.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  imagenActual.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    manejarSwipe();
+  });
+
+  function manejarSwipe() {
+    const distancia = touchEndX - touchStartX;
+    const umbral = 50; // Mínima distancia para contar como swipe
+
+    if (distancia > umbral) {
+      // Swipe derecha (ir a imagen anterior)
+      indice = (indice - 1 + imagenes.length) % imagenes.length;
+      mostrarImagen(indice);
+    } else if (distancia < -umbral) {
+      // Swipe izquierda (ir a imagen siguiente)
+      indice = (indice + 1) % imagenes.length;
+      mostrarImagen(indice);
+    }
+  }
+</script>
+
+
+
+<!-- Contenedor de la galería (lightbox2) -->
+
+<div id="lightbox2" class="lightbox2">
+  <div class="lightbox2-content" id="galeriaContenido2">
+    <button class="nav-btn2 prev2" id="prevBtn2">&#8592;</button>
+    <img id="imagenActual2" src="" alt="Imagen">
+    <button class="nav-btn2 next2" id="nextBtn2">&#8594;</button>
+  </div>
+</div>
+
+
+<script>
+  // Array con las rutas de las imágenes de la segunda galería
+  const imagenes2 = [
+    './Img/Pagina_corporativa/1.png',
+    './Img/Pagina_corporativa/2.png',
+    './Img/Pagina_corporativa/3.png',
+    './Img/Pagina_corporativa/4.png',
+    './Img/Pagina_corporativa/5.png',
+    './Img/Pagina_corporativa/6.png',
+    './Img/Pagina_corporativa/7.png',
+    './Img/Pagina_corporativa/8.png'
+  ];
+
+  let indice2 = 0;
+
+  const lightbox2 = document.getElementById('lightbox2');
+  const imagenActual2 = document.getElementById('imagenActual2');
+  const abrirGaleria2 = document.getElementById('abrirGaleria2');
+  const prevBtn2 = document.getElementById('prevBtn2');
+  const nextBtn2 = document.getElementById('nextBtn2');
+  const galeriaContenido2 = document.getElementById('galeriaContenido2');
+
+  function mostrarImagen2(index) {
+    imagenActual2.src = imagenes2[index];
+  }
+
+  abrirGaleria2.addEventListener('click', () => {
+    indice2 = 0;
+    mostrarImagen2(indice2);
+    lightbox2.style.display = 'flex';
+  });
+
+  nextBtn2.addEventListener('click', () => {
+    indice2 = (indice2 + 1) % imagenes2.length;
+    mostrarImagen2(indice2);
+  });
+
+  prevBtn2.addEventListener('click', () => {
+    indice2 = (indice2 - 1 + imagenes2.length) % imagenes2.length;
+    mostrarImagen2(indice2);
+  });
+
+  lightbox2.addEventListener('click', (e) => {
+    if (!galeriaContenido2.contains(e.target)) {
+      lightbox2.style.display = 'none';
+    }
+  });
+
+  let touchStartX2 = 0;
+  let touchEndX2 = 0;
+
+  imagenActual2.addEventListener('touchstart', (e) => {
+    touchStartX2 = e.changedTouches[0].screenX;
+  });
+
+  imagenActual2.addEventListener('touchend', (e) => {
+    touchEndX2 = e.changedTouches[0].screenX;
+    manejarSwipe2();
+  });
+
+  function manejarSwipe2() {
+    const distancia2 = touchEndX2 - touchStartX2;
+    const umbral2 = 50;
+
+    if (distancia2 > umbral2) {
+      indice2 = (indice2 - 1 + imagenes2.length) % imagenes2.length;
+      mostrarImagen2(indice2);
+    } else if (distancia2 < -umbral2) {
+      indice2 = (indice2 + 1) % imagenes2.length;
+      mostrarImagen2(indice2);
+    }
+  }
+</script>
 
 
 
 </body>
 </html>
-
