@@ -416,6 +416,7 @@ background-color: #0d0f26;
     border-radius: 0.4rem;
     margin-top: 1rem;
     justify-content: center;
+    text-decoration: none;
 
 }
 
@@ -660,8 +661,8 @@ background-color: #0d0f26;
     .lightbox-content {
       position: relative;
       background-color: white;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 5px;
+    
     }
 
     .lightbox-content img {
@@ -696,11 +697,68 @@ background-color: #0d0f26;
 
 
 
+/*---------------------------------------------------------------------------------------------------------*/
 
 
+.lightbox2 {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .lightbox2-content {
+    position: relative;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .lightbox2-content img {
+    max-width: 100%;
+    max-height: 650px;
+    display: block;
+    margin: auto;
+  }
+
+  .nav-btn2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .prev2 {
+    left: -100px;
+  }
+
+  .next2 {
+    right: -100px;
+  }
+
+/*---------------------------------------------------------------------------------------------------------*/
 
 
+    .ver_proyecto{
 
+        display: flex;
+        text-decoration: none;
+        color: white;
 
+    }
 
-    
+    .ver_proyecto:hover{
+
+        color: #ff8bfa;
+
+    }
+
