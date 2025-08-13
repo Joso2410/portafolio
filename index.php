@@ -12,10 +12,10 @@ session_start();
     <title>Portafolio | José Caraballo</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style_media_queries.css">
+
 </head>
 <body>
     
-
 <div id="nav_general">
 
     <div class="nav_general_2">
@@ -30,8 +30,19 @@ session_start();
             <div class="lista_nav_ob" id="Contacto">Contacto</div> 
         </div>
         
-    </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+            <div class="nav-links" id="nav-links">
+            <li id="Inicio2"><a>Inicio</a></li>
+            <li id="Acerca_de2"><a>Acerca</a></li>
+            <li id="Servicios2"><a>Servicios</a></li>
+            <li id="Portafolio2"><a>Portafolio</a></li>
+            <li id="Contacto2"><a>Contacto</a></li>
+            </div>
+        </nav>
 
+
+    </div>
 
     <?php if (isset($_SESSION['mensaje_exito'])): ?>
         <div class="notificacion_contacto">
@@ -54,7 +65,7 @@ session_start();
     <div class="home_redes">
         <a href="https://www.facebook.com/people/Jose-Caraballo/pfbid0MPogqPzkxiWb1bNEcEJT3uKrpJGq237r4QChQvkJmDzqdg8DTW2tBWNKjLzHejxdl/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://github.com/Joso2410" class="home_redes_ti" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.instagram.com/akeymibeats/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/josegrc24/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
 
 </div>
@@ -65,15 +76,15 @@ session_start();
 
     <div class="About_general_descripcion">
         <div class="About_general_descripcion_cuadro_1">
-            <h3>Acerca de mí</h3>
+            <h3>Acerca de mí como</h3>
             <h2>Desarrollador, diseñador,<br>Soporte técnico.</h2>
-            <div class="boton_estilo_1">Curriculum <i class="fa-solid fa-cloud-arrow-down" style="margin-left:10px;"></i></div>
+            <a  href="./document/CV_Jose_Caraballo_ATS.docx" class="boton_estilo_1">Curriculum ATS<i class="fa-solid fa-cloud-arrow-down" style="margin-left:10px;"></i></a>
         </div>
 
         <div class="About_general_descripcion_cuadro_2">
 
             <p style="text-align: justify!important;">
-            Soy desarrollador web Full Stack con más de tres años de experiencia en el diseño y desarrollo de sistemas web personalizados. Me formé de manera autodidacta y he trabajado en proyectos clave dentro del área de telecomunicaciones, destacando en la creación de aplicaciones para gestión de inventario, control de activos, soporte de aplicaciones, ect.
+            Soy desarrollador web Full Stack con más de tres años de experiencia en el diseño y desarrollo de sistemas web personalizados. Me formé de manera autodidacta y he trabajado en proyectos clave dentro del área de soporte, destacando en la creación de aplicaciones para gestión de inventario, control de activos, soporte de aplicaciones, ect.
             <br> <br>
             Domino tecnologías como HTML, CSS, JavaScript, PHP, bootstrap, MySQL y PhpMyAdmin, y me especializo en construir soluciones funcionales, organizadas y orientadas a mejorar procesos internos. 
             </p>
@@ -130,12 +141,16 @@ session_start();
 
      <div class="Portfolio_general_descripcion">
             <div class="Portfolio_linea">
-                <div id="abrirGaleria" class="Portfolio_cuadro" style="background-image: url('./Img/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
-                <div class="Portfolio_cuadro" style="background-image: url('./Img/4.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <div id="abrirGaleria" class="Portfolio_cuadro" style="background-image: url('./Img/Ordenes_de_salida/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo" style="margin-left:8px;"></i></div>
+                <a href="http://" class="ver_proyecto">Sistema de Ordenes de Salida<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
+                <div class="Portfolio_cuadro" style="background-image: url(''); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Ver mas detalles<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
             </div>
             <div class="Portfolio_linea">
-                <div class="Portfolio_cuadro" style="background-image: url('./Img/2.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <div id="abrirGaleria2" class="Portfolio_cuadro" style="background-image: url('./Img/Pagina_corporativa/1.png'); background-size: cover;background-position: center;background-repeat: no-repeat;"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Web corporativa / Aplicaciones<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
                 <div class="Portfolio_cuadro"><i class="fa-solid fa-eye icono-ojo"></i></div>
+                <a href="http://" class="ver_proyecto">Ver mas detalles<i class="fa-solid fa-angles-right" style="margin-left:8px;"></i></a>
             </div>
      </div>
 
@@ -160,7 +175,7 @@ session_start();
     <div class="home_redes">
         <a href="https://www.facebook.com/people/Jose-Caraballo/pfbid0MPogqPzkxiWb1bNEcEJT3uKrpJGq237r4QChQvkJmDzqdg8DTW2tBWNKjLzHejxdl/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://github.com/Joso2410" class="home_redes_ti" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.instagram.com/akeymibeats/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/josegrc24/" class="home_redes_ti" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
 
     <p>Todos los Derechos Reservados / Desarrollado por José Caraballo  © 2026 / Políticas de Privacidad / Aviso Legal</p>
@@ -189,9 +204,11 @@ session_start();
 
     <script src="./js/nav_destino.js"></script>
 
+    <script src="./js/nav_hamburguesa.js"></script>
+
     <?php include './php/galeria_portafolio.php';?>
 
 
-</body>
 
+</body>
 </html>
