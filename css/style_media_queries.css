@@ -132,7 +132,8 @@
     top: 70px;
     left: 0;
     right: 0;
-    background-color: #ff8bfabf;
+    background-color: #00fff0f0;
+    color: black;
     flex-direction: column;
     overflow: hidden;
     max-height: 0;
@@ -146,11 +147,12 @@
   .nav-links li {
     text-align: center;
     padding: 15px 0;
-    border-top: 1px solid #e26ce3;
+    border-top: 1px solid #77fff7;
   }
 
   .nav-links li:hover {
     background-color: #090a1a;
+    color: white;
     cursor: pointer;
   }
 
