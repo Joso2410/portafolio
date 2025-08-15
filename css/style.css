@@ -54,7 +54,7 @@ hr {
 .expand {
     background: transparent;
     animation: moveCursor2 .5s forwards;
-    border: 1px solid #ff8bfa;
+    border: 1px solid #00FFF0;
 }
 
 @keyframes moveCursor1 {
@@ -132,7 +132,7 @@ background-color: #0d0f26;
 
 #nombre{
 
-    color: #ff8bfa;
+    color: #00FFF0;
     font-size: 30px;
 
 }
@@ -141,7 +141,7 @@ background-color: #0d0f26;
 
     width: 30px;
     height: 2px;
-    background: #ff8bfa;
+    background: #00FFF0;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -167,7 +167,7 @@ background-color: #0d0f26;
 
 .lista_nav_ob:hover{
 
-    background-color: #ff8bfa;
+    background-color: #00FFF0;
     color: #0d0f26;
     cursor: pointer;
     transition: 0.3s all linear;
@@ -219,7 +219,7 @@ background-color: #0d0f26;
     border-radius: 100%;
     margin-bottom: 30px;
 
-    border: 1px solid #ff8bfa;
+    border: 1px solid #00FFF0;
     background-image: url('../Img/perfil.jpeg'); 
     background-size: cover;
     background-position: center;
@@ -257,8 +257,8 @@ background-color: #0d0f26;
 
 .home_redes_ti:hover{
 
-    background-color: #ff8bfa;
-    color: white;
+    background-color: #00FFF0;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.3s all linear;
 }
@@ -410,8 +410,8 @@ background-color: #0d0f26;
     display: flex;
     width: 200px;
     align-items: center;
-    color: white;
-    background: #ff8bfa;
+    color: #0d0f26;
+    background: #01f5e5;
     padding: 15px 0px;
     border-radius: 0.4rem;
     margin-top: 1rem;
@@ -425,7 +425,7 @@ background-color: #0d0f26;
 
     transition: 0.1s all linear;
     cursor: pointer;
-    background: #fd7df7;
+    background: #00FFF0;
     
 }
 
@@ -587,10 +587,10 @@ background-color: #0d0f26;
     display: flex;
     position: fixed;
     width: 100%;
-    background-color: #ff8bfa;
+    background-color: #00FFF0;
     color: #ffffff;
     padding: 15px;
-    border: 1px solid #a58da4;
+    border: 1px solid #00FFF0;
 }
 
 
@@ -758,7 +758,7 @@ background-color: #0d0f26;
 
     .ver_proyecto:hover{
 
-        color: #ff8bfa;
+        color: #00FFF0;
 
     }
 
